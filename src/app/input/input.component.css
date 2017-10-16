@@ -1,0 +1,31 @@
+.todo-input {
+    padding: 4px 10px 4px;
+    font-size: 16px;
+    font-family: 'Lucida Grande', Verdana, sans-serif;
+    line-height: 20px;
+    border: solid 1px #dddddd;
+    border-radius: 5px;
+    flex-grow: 1;
+  }
+  .inputLine{
+    width: 500px;
+    margin: 0 auto 10px;
+  }
+  .inputLine_input{
+    width: 400px;
+    height: 25px;
+    margin: 0 5px 0 0;
+  }
+  .inputLine_btn{
+    width: 80px;
+    height: 30px;
+    background-color:#006600;
+  }
+  .inputLine_btn:hover{
+    background-color: #003300;
+  }
+  :host(:not([hidden])) {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+  }
